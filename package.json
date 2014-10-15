@@ -1,0 +1,7 @@
+{
+    "name": "slugify",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt-contrib-uglify": "latest"
+    }
+}

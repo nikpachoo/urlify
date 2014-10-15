@@ -92,20 +92,44 @@
         'Ç':'C', 'Ə':'E', 'Ğ':'G', 'İ':'I', 'Ö':'O', 'Ş':'S', 'Ü':'U'
     };
 
+    var GERMAN_MAP = {
+        'Ä' : 'Ae', 'Ö' : 'Oe', 'Ü' : 'Ue', 'ä' : 'ae', 'ö' : 'oe', 'ü' : 'ue', 'ß' : 'ss',
+        'ẞ' : 'SS'
+    };
+
+    var ROMANIAN_MAP = {
+        'ă' : 'a', 'â' : 'a', 'î' : 'i', 'ș' : 's', 'ț' : 't', 'Ţ' : 'T', 'ţ' : 't'
+    };
+
+    var ARMENIAN_MAP = {
+        'Ա': 'A', 'Բ': 'B', 'Գ': 'G', 'Դ': 'D', 'Ե': 'E', 'Զ': 'Z', 'Է': 'E', 'Ը': 'Y', 'Թ': 't', 'Ժ': 'ZH',
+        'Ի': 'I', 'Լ': 'L', 'Խ': 'X', 'Ծ': 'C', 'Կ': 'K', 'Հ': 'h', 'Ձ': 'J', 'Ղ': 'GH', 'Ճ': 'TW', 'Մ': 'M',
+        'Յ': 'Y', 'Ն': 'N', 'Շ': 'SH', 'Ո': 'VO', 'Չ': 'CH', 'Պ': 'p', 'Ջ': 'J', 'Ռ': 'RR', 'Ս': 'S', 'Վ': 'V',
+        'Տ': 'T', 'Ր': 'R', 'Ց': 'c', 'Ւ': 'W', 'Փ': 'P', 'Ք': 'Q', 'Օ': 'O', 'Ֆ': 'F', 'ՈՒ': 'U',
+
+        'ա': 'a', 'բ': 'b', 'գ': 'g', 'դ': 'd', 'ե': 'e', 'զ': 'z', 'է': 'e', 'ը': 'y', 'թ': 't', 'ժ': 'zh',
+        'ի': 'e', 'լ': 'l', 'խ': 'x', 'ծ': 'c', 'կ': 'k', 'հ': 'h', 'ձ': 'j', 'ղ': 'gh', 'ճ': 'tw', 'մ': 'm',
+        'յ': 'y', 'ն': 'n', 'շ': 'sh', 'ո': 'vo', 'չ': 'ch', 'պ': 'p', 'ջ': 'j', 'ռ': 'rr', 'ս': 's', 'վ': 'v',
+        'տ': 't', 'ր': 'r', 'ց': 'c', 'ւ': 'w', 'փ': 'p', 'ք': 'q', 'օ': 'o', 'ֆ': 'f', 'ու': 'u', 'և': 'ew'
+    };
+
     var ALL_DOWNCODE_MAPS = [
+        ARABIC_MAP,
+        AZERBAIJANI_MAP,
+        ARMENIAN_MAP,
+        CZECH_MAP,
+        GREEK_MAP,
+        GERMAN_MAP,
         LATIN_MAP,
         LATIN_SYMBOLS_MAP,
-        GREEK_MAP,
-        TURKISH_MAP,
-        RUSSIAN_MAP,
-        UKRAINIAN_MAP,
-        CZECH_MAP,
-        POLISH_MAP,
         LATVIAN_MAP,
-        ARABIC_MAP,
         LITHUANIAN_MAP,
+        POLISH_MAP,
+        ROMANIAN_MAP,
+        RUSSIAN_MAP,
         SERBIAN_MAP,
-        AZERBAIJANI_MAP
+        TURKISH_MAP,
+        UKRAINIAN_MAP
     ];
 
     var Downcoder = {

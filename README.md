@@ -8,8 +8,8 @@ Handles symbols from Latin languages as well as Arabic, Armenian, Azerbaijani, C
 
 To get going with URLify you can:
 
-[Download the latest release](https://github.com/nikpachoo/urlify/archive/master.zip)
-Install with Bower: bower install urlify
+*[Download the latest release](https://github.com/nikpachoo/urlify/archive/master.zip)
+*Install with Bower: bower install urlify
 
 
 ## Usage

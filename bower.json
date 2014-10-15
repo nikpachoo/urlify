@@ -3,18 +3,24 @@
     "main": "urlify.js",
     "version": "1.0.0",
     "homepage": "https://github.com/nikpachoo/urlify",
+
     "repository": {
         "type": "git",
         "url": "git://github.com/nikpachoo/urlify.git"
     },
+
     "authors": [
         "nikpachoo <Nikolay.Pachkov@umisoft.ru>"
     ],
+
     "description": "JavaScript wrapper for URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
+
     "keywords": [
         "urlify"
     ],
+
     "license": "MIT",
+
     "ignore": [
         "**/.*",
         "node_modules"
